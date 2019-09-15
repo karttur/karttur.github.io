@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Karttur projects
-excerpt: "Overview of Karttur´s projects on GitHub"
+title: Karttur on GitHub.com
+excerpt: "Karttur projects and blogs on GitHub.com"
 image: rainfall-delta_3B43_trmm_2001-2016_mk-z-ts-model
 search_omit: true
 ---
 
-<h1>XX blog<h1>
+<h1>Blogs<h1>
 <ul class="post-list">
-{% for post in site.categories.blog limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% for post in site.categories.blog limit:25 %}
+  <li><article><a href="{{ post.karttururl }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
+    {% if post.abstract %} <span class="excerpt">{{ post.abstract | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}
+  </article></li>
 {% endfor %}
 </ul>
 
-<h1>XX articles<h1>
+<h1>Code<h1>
 <ul class="post-list">
-{% for post in site.categories.overview limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% for post in site.categories.code limit:25 %}
+  <li><article><a href="{{ post.karttururl }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>

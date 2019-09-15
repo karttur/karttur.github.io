@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Karttur GitHub repository overview
+title: Karttur
 modified: '2018-01-09 T18:17:25.000Z'
 categories: overview
 excerpt: "Overview of Karttur´s GitHub site for blogs, articles and manuals"
+karttururl: setup-blog
 tags:
   - Blog setup
   - IDE setup
@@ -16,13 +17,7 @@ comments: true
 share: true
 ---
 **Contents**
-\- [Scaffolding](#scaffolding)
-\- [Repositories](#repositories)
-  \- [overview](#overview)
-  \- [setup-blog](#setup-blog)
-  \- [setup-github](#setup-github)
-  \- [setup-theme-blog](#setup-theme-blog)
-  \- [setup-ide](#setup-ide)
+
 
 This blog is an attempt to create an overview of the contents in Karttur's GitHub site. The site is organized in repositories, with each repository containing a blog, and some containing program codes. You can use the top menu to get to the different repositories, or the links in the descriptions of the content of each repository below.
 
