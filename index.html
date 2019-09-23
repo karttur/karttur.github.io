@@ -6,18 +6,18 @@ image: rainfall-delta_3B43_trmm_2001-2016_mk-z-ts-model
 search_omit: true
 ---
 
-<h1>Blogs<h1>
+<h1>Blog and article repos<h1>
 <ul class="post-list">
-{% for post in site.categories.blog limit:25 %}
+{% for post in site.categories.blog limit:25 reversed %}
   <li><article><a href="{{ post.karttururl }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
     {% if post.abstract %} <span class="excerpt">{{ post.abstract | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}
   </article></li>
 {% endfor %}
 </ul>
 
-<h1>Code<h1>
+<h1>Code repos<h1>
 <ul class="post-list">
-{% for post in site.categories.code limit:25 %}
+{% for post in site.categories.code limit:25 reversed %}
   <li><article><a href="{{ post.karttururl }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
