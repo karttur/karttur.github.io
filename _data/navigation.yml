@@ -1,25 +1,13 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-  include: 'N'
-
-- title: Front
+- title: Home
   url: /
   include: 'N'
 
-- title: Articles
-  url: /overview/
-  include: 'N'
-
-- title: Blog
-  url: /blog/
-  include: 'N'
-
-- title: Setup blog
-  url: https://karttur.github.io/setup-theme-blog/
+- title: blog setup
+  url: /blogblog/
   include: 'Y'
-  excerpt: 'Setting up this blog using Jekyll and Github'
+  excerpt: 'Setting up this blog using Jekyll and Github.'
   tags:
     - Blog setup
     - Jekyll
@@ -27,10 +15,10 @@
     - GitHub
     - Atom
 
-- title: Setup IDE
-  url: https://karttur.github.io/setup-ide/
+- title: GeoImagine
+  url: /geoimagine/
   include: 'Y'
-  excerpt: 'Installing Eclipse for Python (PyDev) using Anaconda as the Python interpreter, installing PostgreSQL, and then connecting these components to an operational framework.'
+  excerpt: 'Spatial Data Integrated Development Environment.'
   tags:
     - Eclipse
     - Python
@@ -39,6 +27,32 @@
     - PostreSQL
     - psycopg2
 
+- title: EnvironImagine
+  url: https://karttur.github.io/environimagine/
+  include: 'Y'
+  excerpt: 'Environment imagine'
+  tags:
+    - environimagine
+    - landslides
+
+- title: Professional
+  url: https://karttur.github.io/professional/
+  include: 'Y'
+  excerpt: 'Preofessional portfolio'
+  tags:
+    - CV
+
+- title: Miscallenous
+  url: https://karttur.github.io/misc/
+  include: 'Y'
+  excerpt: 'Preofessional portfolio'
+  tags:
+    - CV
+
 - title: Search
   url: /search/
+  include: 'N'
+
+- title: About
+  url: /about/
   include: 'N'

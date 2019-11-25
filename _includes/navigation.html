@@ -2,6 +2,7 @@
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
       {% for link in site.data.navigation %}
+				
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
 		        {% else %}
@@ -12,6 +13,7 @@
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
+
 
 {% include browser-upgrade.html %}
 

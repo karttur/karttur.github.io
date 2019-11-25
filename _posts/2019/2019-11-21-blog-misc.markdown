@@ -1,0 +1,14 @@
+---
+layout: post
+title: Miscellaneous
+date: '2019-11-21 11:27'
+modified: '2019-11-21 T18:17:25.000Z'
+categories: blog
+karttururl: /misc/
+subject: "misc"
+excerpt: "Miscellanous blogs on stuff that I either need to, or like, to do."
+abstract: ""
+image: avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
+comments: true
+share: true
+---
