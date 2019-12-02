@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GeoImageine Code
+title: GeoImagine Code
 date: '2019-09-13 11:27'
 modified: '2019-09-13 T18:17:25.000Z'
 categories: geoimagine
