@@ -4,7 +4,7 @@ title: EnvironImagine
 date: '2019-09-21 11:27'
 modified: '2019-09-21T18:17:25.000Z'
 categories: blog
-karttururl: /environimagine/
+karttururl: /envimg/
 subject: "environimagine"
 excerpt: "Real world quality control with environmental imagine."
 abstract: ""

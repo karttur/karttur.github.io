@@ -16,7 +16,7 @@
     - Atom
 
 - title: GeoImagine
-  url: /geoimagine/
+  url: /geoimg/
   include: 'Y'
   excerpt: 'Spatial Data Integrated Development Environment.'
   tags:
@@ -28,7 +28,7 @@
     - psycopg2
 
 - title: EnvironImagine
-  url: https://karttur.github.io/environimagine/
+  url: /envimg/
   include: 'Y'
   excerpt: 'Environment imagine'
   tags:
@@ -36,16 +36,16 @@
     - landslides
 
 - title: Professional
-  url: https://karttur.github.io/professional/
+  url: /proffs/
   include: 'Y'
-  excerpt: 'Preofessional portfolio'
+  excerpt: 'Professional portfolio'
   tags:
     - CV
 
 - title: Miscallenous
-  url: https://karttur.github.io/misc/
+  url: /misc/
   include: 'Y'
-  excerpt: 'Preofessional portfolio'
+  excerpt: 'Miscallenous'
   tags:
     - CV
 

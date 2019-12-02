@@ -3,7 +3,7 @@ layout: post
 title: EnvironImagine
 date: '2019-09-23 11:27'
 modified: '2019-09-23 T18:17:25.000Z'
-categories: environimagine
+categories: "environimagine"
 karttururl: https://karttur.github.io/environimagine/
 excerpt: "Real world quality control with environmental imagine."
 abstract: "Thomas Gumbricht professional portfolio including CV, education, work experience, projects, publications, teaching, supervision, talks, etc"
