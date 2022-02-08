@@ -4,7 +4,7 @@ title: Projection system setup
 date: '2022-02-07 11:27'
 modified: '2019-02-07 T18:17:25.000Z'
 categories: "geoimagine"
-karttururl: https://karttur.github.io/geoimagine03-setup-projsys/
+karttururl: https://karttur.github.io/geoimagine03-docs-setup-projsys/
 excerpt: "Setup custom projection system - SWEREF99"
 abstract: ""
 tags:
